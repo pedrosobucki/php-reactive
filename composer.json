@@ -14,5 +14,16 @@
             "email": "pedrosobucki@gmail.com"
         }
     ],
-    "require": {}
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
 }
